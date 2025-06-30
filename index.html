@@ -15,6 +15,7 @@
     <meta property="og:url" content="https://PineCoder.in.in">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://PineCoder.in.in">
+    <link rel="alternate" hreflang="en-in" href="https://pinecoder.in">
     
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -32,160 +33,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <style>
-        :root {
-            --primary: #0f172a;
-            --secondary: #3b82f6;
-            --accent: #10b981;
-            --warning: #f59e0b;
-        }
-        
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            overflow-x: hidden;
-        }
-        
-        /* Gradient Text */
-        .gradient-text {
-            background: linear-gradient(135deg, #3b82f6, #10b981);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        /* Animated Grid Background */
-        .grid-background {
-            background-image: 
-                linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
-            background-size: 50px 50px;
-            animation: grid-move 20s linear infinite;
-        }
-        
-        @keyframes grid-move {
-            0% { transform: translate(0, 0); }
-            100% { transform: translate(50px, 50px); }
-        }
-        
-        /* Glow Effects */
-        .glow-blue {
-            box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
-        }
-        
-        .glow-green {
-            box-shadow: 0 0 30px rgba(16, 185, 129, 0.3);
-        }
-        
-        /* Card Hover Effects */
-        .feature-card {
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            border-color: rgba(59, 130, 246, 0.5);
-            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
-        }
-        
-        /* Smooth Scroll */
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-        
-        ::-webkit-scrollbar-track {
-            background: #1e293b;
-        }
-        
-        ::-webkit-scrollbar-thumb {
-            background: #3b82f6;
-            border-radius: 5px;
-        }
-        
-        /* Navbar Blur Effect */
-        .navbar-blur {
-            backdrop-filter: blur(10px);
-            background-color: rgba(15, 23, 42, 0.9);
-        }
-        
-        /* Animated Button */
-        .animated-button {
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .animated-button::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 0;
-            height: 0;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.2);
-            transform: translate(-50%, -50%);
-            transition: width 0.5s, height 0.5s;
-        }
-        
-        .animated-button:hover::before {
-            width: 300px;
-            height: 300px;
-        }
-        
-        /* Loading Animation */
-        .loader {
-            border: 3px solid #1e293b;
-            border-top: 3px solid #3b82f6;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        /* Terminal Effect */
-        .terminal {
-            background: #0a0a0a;
-            border: 1px solid #333;
-            border-radius: 8px;
-            font-family: 'Courier New', monospace;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .terminal-header {
-            background: #1a1a1a;
-            padding: 8px 16px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        
-        .terminal-dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-        
-        /* Pulse Animation */
-        @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
-        }
-        
-        .pulse {
-            animation: pulse 2s infinite;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "PineCoder.in",
+      "url": "https://pinecoder.in",
+      "logo": "https://pinecoder.in/logo-square-dark-theme.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-749-946-2967",
+        "contactType": "customer service"
+      }
+    }
+    </script>
 </head>
 <body class="bg-slate-950 text-gray-300">
 
@@ -319,6 +181,41 @@
         </div>
     </section>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Strategy Development",
+            "description": "Custom algorithm development in Pine Script, Python, or MQL. We transform your trading ideas into robust, backtested strategies."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Automation & Execution",
+            "description": "Seamless integration with brokers through OpenAlgo and custom APIs. Execute trades automatically with advanced risk management."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Backtesting & Optimization",
+            "description": "Comprehensive backtesting with detailed analytics. Optimize parameters and validate strategies before going live."
+          }
+        }
+      ]
+    }
+    </script>
     <!-- Services Section -->
     <section id="services" class="py-20 relative">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -576,22 +473,22 @@
                 <h3 class="text-2xl font-semibold text-white mb-6 text-center">Trading Platforms</h3>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                     <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="logo-square-dark-theme.png" alt="TradingView" class="h-16 mx-auto mb-3">
+                        <img src="logo-square-dark-theme.png" alt="PineCoder.in Logo" class="h-16 mx-auto mb-3">
                         <h4 class="text-white font-semibold">TradingView</h4>
                         <p class="text-sm text-gray-500">Pine Script v5</p>
                     </div>
                     <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python" class="h-16 mx-auto mb-3">
+                        <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python Logo" class="h-16 mx-auto mb-3">
                         <h4 class="text-white font-semibold">Python</h4>
                         <p class="text-sm text-gray-500">Custom Strategies</p>
                     </div>
                     <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/MetaTrader_5.png" alt="MetaTrader" class="h-16 mx-auto mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/MetaTrader_5.png" alt="MetaTrader 5 Logo" class="h-16 mx-auto mb-3">
                         <h4 class="text-white font-semibold">MetaTrader</h4>
                         <p class="text-sm text-gray-500">MT4/MT5</p>
                     </div>
                     <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="https://i0.wp.com/www.marketcalls.in/wp-content/uploads/2012/07/AmiBroker_Logo.jpg?ssl=1" alt="AmiBroker" class="h-16 mx-auto mb-3">
+                        <img src="https://i0.wp.com/www.marketcalls.in/wp-content/uploads/2012/07/AmiBroker_Logo.jpg?ssl=1" alt="AmiBroker Logo" class="h-16 mx-auto mb-3">
                         <h4 class="text-white font-semibold">AmiBroker</h4>
                         <p class="text-sm text-gray-500">AFL Scripts</p>
                     </div>
@@ -646,6 +543,44 @@
         </div>
     </section>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Offer",
+            "name": "Starter",
+            "price": "9999",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Offer",
+            "name": "Professional",
+            "price": "24999",
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Offer",
+            "name": "Enterprise",
+            "price": "Custom",
+            "priceCurrency": "INR"
+          }
+        }
+      ]
+    }
+    </script>
     <!-- Pricing Section -->
     <section id="pricing" class="py-20 bg-slate-900/50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -866,6 +801,54 @@
         </div>
     </section>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is algorithmic trading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Algorithmic trading uses computer programs to execute trades based on predefined rules and strategies. It eliminates emotional decision-making and ensures consistent execution of your trading plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need coding knowledge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No coding knowledge is required! Simply share your trading strategy in plain English, and our team will handle all the technical implementation. We'll code, test, and deploy your strategy for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which brokers are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We support all major Indian brokers including Zerodha, Upstox, Angel One, 5Paisa, Fyers, and Alice Blue. Through OpenAlgo integration, we can connect to virtually any broker that provides API access."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How secure is my strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We take security very seriously. All strategies are encrypted and stored securely. We sign NDAs upon request, and your trading logic remains confidential. Our infrastructure uses bank-grade security protocols."
+          }
+        },
+        {
+          "@type":'"Question",
+          "name": "Can I modify my strategy later?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely! We provide ongoing support for strategy modifications and optimizations. You can request changes anytime, and we'll implement them quickly. Minor tweaks are often done within 24 hours."
+          }
+        }
+      ]
+    }
+    </script>
     <!-- FAQ Section -->
     <section class="py-20 bg-slate-900/50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
@@ -1005,13 +988,13 @@
                 <div>
                     <h4 class="text-white font-semibold mb-4">Connect</h4>
                     <div class="flex gap-4 mb-4">
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors">
+                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="Twitter">
                             <i class="fab fa-twitter text-gray-400"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors">
+                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="LinkedIn">
                             <i class="fab fa-linkedin text-gray-400"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors">
+                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="GitHub">
                             <i class="fab fa-github text-gray-400"></i>
                         </a>
                     </div>
