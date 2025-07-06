@@ -12,9 +12,9 @@
     <meta property="og:title" content="PineCoder.in - Professional Trading Strategy Automation">
     <meta property="og:description" content="Transform your trading ideas into automated strategies. Professional algo development and automation services.">
     <meta property="og:image" content="/og-image.jpg">
-    <meta property="og:url" content="https://PineCoder.in.in">
+    <meta property="og:url" content="https://pinecoder.in">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="canonical" href="https://PineCoder.in.in">
+    <link rel="canonical" href="https://pinecoder.in">
     <link rel="alternate" hreflang="en-in" href="https://pinecoder.in">
     
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -23,18 +23,19 @@
     <link rel="manifest" href="favicon_io/site.webmanifest">
 
     <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
-<script type="application/ld+json">
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
@@ -45,31 +46,83 @@
         "@type": "ContactPoint",
         "telephone": "+91-749-946-2967",
         "contactType": "customer service"
-      }
+      },
+      "sameAs": [
+        "https://twitter.com/pinecoderin",
+        "https://www.linkedin.com/company/pinecoder",
+        "https://www.youtube.com/@pinecoderin",
+        "https://www.instagram.com/pinecoderin",
+        "https://www.facebook.com/pinecoderin",
+        "https://t.me/pinecoderin"
+      ]
     }
     </script>
 </head>
 <body class="bg-slate-950 text-gray-300">
 
+    <!-- Top Bar -->
+    <div class="bg-slate-900 border-b border-slate-800 py-2">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-between items-center text-sm">
+                <div class="flex items-center gap-4">
+                    <a href="tel:+917499462967" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fas fa-phone mr-1"></i> +91 749-946-2967
+                    </a>
+                    <a href="mailto:contact@pinecoder.in" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fas fa-envelope mr-1"></i> contact@pinecoder.in
+                    </a>
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="https://twitter.com/pinecoderin" target="_blank" class="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/pinecoder" target="_blank" class="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@pinecoderin" target="_blank" class="text-gray-400 hover:text-white transition-colors" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://t.me/pinecoderin" target="_blank" class="text-gray-400 hover:text-white transition-colors" aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://www.instagram.com/pinecoderin" target="_blank" class="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation -->
-    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <nav id="navbar" class="sticky top-0 left-0 right-0 z-50 transition-all duration-300">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <a href="#" class="text-2xl font-bold">
+                    <a href="/" class="text-2xl font-bold">
                         <span class="text-white">Pine</span><span class="gradient-text">Coder.in</span>
                     </a>
                 </div>
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a>
-                    <a href="#services" class="text-gray-300 hover:text-white transition-colors">Services</a>
-                    <a href="#how-it-works" class="text-gray-300 hover:text-white transition-colors">How It Works</a>
-                    <a href="#platforms" class="text-gray-300 hover:text-white transition-colors">Platforms</a>
-                    <a href="#pricing" class="text-gray-300 hover:text-white transition-colors">Pricing</a>
-                    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors animated-button">
+                    <a href="/" class="text-gray-300 hover:text-white transition-colors">Home</a>
+                    <div class="relative group">
+                        <a href="#services" class="text-gray-300 hover:text-white transition-colors flex items-center">
+                            Services <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                        </a>
+                        <div class="absolute top-full left-0 mt-2 w-64 bg-slate-900 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                            <a href="/strategy-development.html" class="block px-4 py-3 text-gray-300 hover:bg-slate-800 hover:text-white transition-colors">Strategy Development</a>
+                            <a href="/backtesting.html" class="block px-4 py-3 text-gray-300 hover:bg-slate-800 hover:text-white transition-colors">Backtesting & Optimization</a>
+                            <a href="/automation.html" class="block px-4 py-3 text-gray-300 hover:bg-slate-800 hover:text-white transition-colors">Trading Automation</a>
+                            <a href="/custom-indicators.html" class="block px-4 py-3 text-gray-300 hover:bg-slate-800 hover:text-white transition-colors">Custom Indicators</a>
+                        </div>
+                    </div>
+                    <a href="/portfolio.html" class="text-gray-300 hover:text-white transition-colors">Portfolio</a>
+                    <a href="/pricing.html" class="text-gray-300 hover:text-white transition-colors">Pricing</a>
+                    <a href="/blog.html" class="text-gray-300 hover:text-white transition-colors">Blog</a>
+                    <a href="/about.html" class="text-gray-300 hover:text-white transition-colors">About</a>
+                    <a href="/contact.html" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors animated-button">
                         Get Started
                     </a>
                 </div>
@@ -84,12 +137,19 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-t border-slate-800">
             <div class="px-4 py-3 space-y-3">
-                <a href="#home" class="block text-gray-300 hover:text-white transition-colors">Home</a>
-                <a href="#services" class="block text-gray-300 hover:text-white transition-colors">Services</a>
-                <a href="#how-it-works" class="block text-gray-300 hover:text-white transition-colors">How It Works</a>
-                <a href="#platforms" class="block text-gray-300 hover:text-white transition-colors">Platforms</a>
-                <a href="#pricing" class="block text-gray-300 hover:text-white transition-colors">Pricing</a>
-                <a href="#contact" class="block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors text-center">
+                <a href="/" class="block text-gray-300 hover:text-white transition-colors">Home</a>
+                <div class="space-y-2">
+                    <p class="text-gray-500 text-sm font-semibold">Services</p>
+                    <a href="/strategy-development.html" class="block text-gray-300 hover:text-white transition-colors pl-4">Strategy Development</a>
+                    <a href="/backtesting.html" class="block text-gray-300 hover:text-white transition-colors pl-4">Backtesting</a>
+                    <a href="/automation.html" class="block text-gray-300 hover:text-white transition-colors pl-4">Automation</a>
+                    <a href="/custom-indicators.html" class="block text-gray-300 hover:text-white transition-colors pl-4">Custom Indicators</a>
+                </div>
+                <a href="/portfolio.html" class="block text-gray-300 hover:text-white transition-colors">Portfolio</a>
+                <a href="/pricing.html" class="block text-gray-300 hover:text-white transition-colors">Pricing</a>
+                <a href="/blog.html" class="block text-gray-300 hover:text-white transition-colors">Blog</a>
+                <a href="/about.html" class="block text-gray-300 hover:text-white transition-colors">About</a>
+                <a href="/contact.html" class="block bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors text-center">
                     Get Started
                 </a>
             </div>
@@ -99,27 +159,33 @@
     <!-- Hero Section -->
     <section id="home" class="relative min-h-screen flex items-center pt-16">
         <div class="absolute inset-0 grid-background opacity-20"></div>
+        
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute w-96 h-96 bg-blue-600/10 rounded-full blur-3xl -top-48 -left-48 animate-float"></div>
+            <div class="absolute w-96 h-96 bg-green-600/10 rounded-full blur-3xl -bottom-48 -right-48 animate-float-delayed"></div>
+        </div>
+        
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <!-- Left Content -->
                 <div>
                     <div class="inline-flex items-center gap-2 bg-slate-900 px-4 py-2 rounded-full border border-slate-800 mb-6">
                         <span class="w-2 h-2 bg-green-500 rounded-full pulse"></span>
-                        <span class="text-sm">Trusted by 500+ Traders</span>
+                        <span class="text-sm">Trusted by 500+ Traders Across India</span>
                     </div>
                     
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
                         Transform Your Trading Ideas into 
-                        <span class="gradient-text">Automated Strategies</span>
+                        <span class="gradient-text">Profitable Algorithms</span>
                     </h1>
                     
                     <p class="text-xl text-gray-400 mb-8">
-                        Professional strategy development and automation services. From concept to deployment, 
-                        we help you build robust algorithmic trading systems with TradingView, Python, and OpenAlgo.
+                        India's premier algorithmic trading development service. We convert your trading strategies into robust, automated systems with advanced risk management and real-time execution.
                     </p>
                     
                     <div class="flex flex-col sm:flex-row gap-4 mb-8">
-                        <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors animated-button text-center">
+                        <a href="/contact.html" class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors animated-button text-center">
                             Start Building <i class="fas fa-arrow-right ml-2"></i>
                         </a>
                         <a href="#demo" class="border border-slate-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-900 transition-colors text-center">
@@ -130,11 +196,11 @@
                     <!-- Stats -->
                     <div class="grid grid-cols-3 gap-8">
                         <div>
-                            <h3 class="text-3xl font-bold text-white">500+</h3>
+                            <h3 class="text-3xl font-bold text-white counter" data-target="500">0</h3>
                             <p class="text-gray-500">Active Traders</p>
                         </div>
                         <div>
-                            <h3 class="text-3xl font-bold text-white">1000+</h3>
+                            <h3 class="text-3xl font-bold text-white counter" data-target="1000">0</h3>
                             <p class="text-gray-500">Strategies Built</p>
                         </div>
                         <div>
@@ -144,7 +210,7 @@
                     </div>
                 </div>
                 
-                <!-- Right Content - Terminal Preview -->
+                <!-- Right Content - Enhanced Terminal -->
                 <div class="relative">
                     <div class="terminal glow-blue">
                         <div class="terminal-header">
@@ -154,194 +220,352 @@
                             <span class="text-gray-500 text-sm ml-2">strategy_executor.py</span>
                         </div>
                         <div class="p-6 text-sm">
-                            <div class="text-green-400 mb-2"># Initialize PineCoder.in Strategy</div>
-                            <div class="text-white">strategy = <span class="text-blue-400">PineCoder</span>(<span class="text-yellow-400">'RSI_MACD_Strategy'</span>)</div>
-                            <div class="text-white">strategy.<span class="text-blue-400">connect_broker</span>(<span class="text-yellow-400">'openalgo'</span>)</div>
-                            <div class="text-white mb-2">strategy.<span class="text-blue-400">set_capital</span>(<span class="text-purple-400">100000</span>)</div>
+                            <div class="text-green-400 mb-2"># Initialize PineCoder Strategy Engine</div>
+                            <div class="text-white">strategy = <span class="text-blue-400">PineCoder</span>(<span class="text-yellow-400">'NIFTY_Options_Strategy'</span>)</div>
+                            <div class="text-white">strategy.<span class="text-blue-400">connect_broker</span>(<span class="text-yellow-400">'zerodha'</span>)</div>
+                            <div class="text-white mb-2">strategy.<span class="text-blue-400">set_capital</span>(<span class="text-purple-400">500000</span>)</div>
                             
-                            <div class="text-green-400 mb-2"># Execute with risk management</div>
-                            <div class="text-white">strategy.<span class="text-blue-400">run</span>(</div>
-                            <div class="text-white ml-4">risk_per_trade=<span class="text-purple-400">2</span>,</div>
-                            <div class="text-white ml-4">max_positions=<span class="text-purple-400">5</span>,</div>
-                            <div class="text-white ml-4">stop_loss=<span class="text-purple-400">1.5</span></div>
-                            <div class="text-white">)</div>
-                            <div class="text-gray-500 mt-4"># Output: Strategy running successfully...</div>
-                            <div class="text-green-400">✓ Connected to OpenAlgo</div>
-                            <div class="text-green-400">✓ Signals processing...</div>
-                            <div class="text-green-400">✓ Orders executing...</div>
+                            <div class="text-green-400 mb-2"># Configure advanced risk management</div>
+                            <div class="text-white">strategy.<span class="text-blue-400">configure_risk</span>({</div>
+                            <div class="text-white ml-4"><span class="text-yellow-400">'max_drawdown'</span>: <span class="text-purple-400">0.15</span>,</div>
+                            <div class="text-white ml-4"><span class="text-yellow-400">'position_sizing'</span>: <span class="text-yellow-400">'kelly'</span>,</div>
+                            <div class="text-white ml-4"><span class="text-yellow-400">'hedging'</span>: <span class="text-green-400">True</span></div>
+                            <div class="text-white">})</div>
+                            
+                            <div class="text-gray-500 mt-4"># Live execution started...</div>
+                            <div class="text-green-400">✓ Connected to Zerodha Kite</div>
+                            <div class="text-green-400">✓ Market data streaming...</div>
+                            <div class="text-green-400">✓ Strategy running profitably</div>
+                            <div class="text-yellow-400 mt-2">→ Current P&L: <span class="text-green-400">+₹12,450</span> (2.49%)</div>
                         </div>
                     </div>
                     
                     <!-- Floating Elements -->
-                    <div class="absolute -top-4 -right-4 bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold">
-                        <i class="fas fa-check-circle mr-1"></i> Live
+                    <div class="absolute -top-4 -right-4 bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold animate-pulse">
+                        <i class="fas fa-check-circle mr-1"></i> Live Trading
+                    </div>
+                    
+                    <!-- Performance Badge -->
+                    <div class="absolute -bottom-4 -left-4 bg-slate-900 border border-slate-800 p-4 rounded-lg">
+                        <div class="text-xs text-gray-500 mb-1">Today's Performance</div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-chart-line text-green-500"></i>
+                            <span class="text-green-500 font-semibold">+18.2%</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Service",
-            "name": "Strategy Development",
-            "description": "Custom algorithm development in Pine Script, Python, or MQL. We transform your trading ideas into robust, backtested strategies."
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Service",
-            "name": "Automation & Execution",
-            "description": "Seamless integration with brokers through OpenAlgo and custom APIs. Execute trades automatically with advanced risk management."
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Service",
-            "name": "Backtesting & Optimization",
-            "description": "Comprehensive backtesting with detailed analytics. Optimize parameters and validate strategies before going live."
-          }
-        }
-      ]
-    }
-    </script>
-    <!-- Services Section -->
+    <!-- Trusted By Section -->
+    <section class="py-12 bg-slate-900/50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-8">
+                <p class="text-gray-500 uppercase tracking-wider text-sm">Trusted by traders using</p>
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-8 opacity-50">
+                <img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha" class="h-8 filter brightness-0 invert">
+                <img src="https://tradebrains.in/wp-content/uploads/2019/09/upstox-logo.png" alt="Upstox" class="h-8 filter brightness-0 invert">
+                <img src="https://pnghdpro.com/wp-content/themes/pnghdpro/download/social-media-and-brands/angel-one-logo-icon.png" alt="Angel One" class="h-8 filter brightness-0 invert">
+                <img src="https://alicebluewebsite.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/10/16045013/logo.webp" alt="Alice Blue" class="h-8 filter brightness-0 invert">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section Enhanced -->
     <section id="services" class="py-20 relative">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
+                <div class="inline-flex items-center gap-2 bg-blue-600/10 px-4 py-2 rounded-full mb-4">
+                    <i class="fas fa-cog text-blue-500"></i>
+                    <span class="text-blue-500 font-semibold uppercase tracking-wider text-sm">Our Services</span>
+                </div>
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                    Comprehensive <span class="gradient-text">Trading Automation</span> Services
+                    End-to-End <span class="gradient-text">Algorithmic Trading</span> Solutions
                 </h2>
                 <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    From strategy development to deployment, we provide end-to-end solutions for algorithmic trading
+                    From ideation to execution, we handle every aspect of your algorithmic trading journey
                 </p>
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Service 1 -->
-                <div class="feature-card bg-slate-900 p-8 rounded-2xl">
-                    <div class="w-14 h-14 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card bg-slate-900 p-8 rounded-2xl group hover:scale-105 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-blue-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600/30 transition-colors">
                         <i class="fas fa-code text-blue-500 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-white mb-3">Strategy Development</h3>
                     <p class="text-gray-400 mb-4">
-                        Custom algorithm development in Pine Script, Python, or MQL. We transform your trading ideas into robust, backtested strategies.
+                        Transform your trading logic into sophisticated algorithms. We code in Pine Script, Python, MQL, and more.
                     </p>
                     <ul class="space-y-2 text-sm text-gray-500">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Pine Script for TradingView</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Python with TA-Lib & Pandas</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Multi-timeframe strategies</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Multi-timeframe analysis</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Complex option strategies</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Machine learning integration</li>
                     </ul>
+                    <a href="/strategy-development.html" class="inline-flex items-center text-blue-500 hover:text-blue-400 mt-4 font-semibold">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
                 
                 <!-- Service 2 -->
-                <div class="feature-card bg-slate-900 p-8 rounded-2xl">
-                    <div class="w-14 h-14 bg-green-600/20 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card bg-slate-900 p-8 rounded-2xl group hover:scale-105 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-green-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-green-600/30 transition-colors">
                         <i class="fas fa-robot text-green-500 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-white mb-3">Automation & Execution</h3>
                     <p class="text-gray-400 mb-4">
-                        Seamless integration with brokers through OpenAlgo and custom APIs. Execute trades automatically with advanced risk management.
+                        Deploy your strategies across multiple brokers with our robust execution infrastructure.
                     </p>
                     <ul class="space-y-2 text-sm text-gray-500">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>OpenAlgo integration</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Multi-broker support</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Real-time execution</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Ultra-low latency execution</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Smart order routing</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>24/7 monitoring</li>
                     </ul>
+                    <a href="/automation.html" class="inline-flex items-center text-blue-500 hover:text-blue-400 mt-4 font-semibold">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
                 
                 <!-- Service 3 -->
-                <div class="feature-card bg-slate-900 p-8 rounded-2xl">
-                    <div class="w-14 h-14 bg-purple-600/20 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card bg-slate-900 p-8 rounded-2xl group hover:scale-105 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-purple-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-purple-600/30 transition-colors">
                         <i class="fas fa-chart-line text-purple-500 text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Backtesting & Optimization</h3>
+                    <h3 class="text-xl font-semibold text-white mb-3">Backtesting & Research</h3>
                     <p class="text-gray-400 mb-4">
-                        Comprehensive backtesting with detailed analytics. Optimize parameters and validate strategies before going live.
+                        Validate your strategies with comprehensive historical analysis and optimization.
                     </p>
                     <ul class="space-y-2 text-sm text-gray-500">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Historical data analysis</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Walk-forward testing</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>10+ years historical data</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Walk-forward analysis</li>
                         <li><i class="fas fa-check text-green-500 mr-2"></i>Monte Carlo simulation</li>
                     </ul>
+                    <a href="/backtesting.html" class="inline-flex items-center text-blue-500 hover:text-blue-400 mt-4 font-semibold">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
                 
                 <!-- Service 4 -->
-                <div class="feature-card bg-slate-900 p-8 rounded-2xl">
-                    <div class="w-14 h-14 bg-yellow-600/20 rounded-lg flex items-center justify-center mb-6">
+                <div class="feature-card bg-slate-900 p-8 rounded-2xl group hover:scale-105 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-yellow-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-yellow-600/30 transition-colors">
                         <i class="fas fa-shield-alt text-yellow-500 text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold text-white mb-3">Risk Management</h3>
                     <p class="text-gray-400 mb-4">
-                        Advanced risk controls including position sizing, stop-loss management, and portfolio allocation strategies.
+                        Protect your capital with institutional-grade risk controls and portfolio management.
                     </p>
                     <ul class="space-y-2 text-sm text-gray-500">
                         <li><i class="fas fa-check text-green-500 mr-2"></i>Dynamic position sizing</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Trailing stop-loss</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Drawdown protection</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Portfolio hedging</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Real-time risk metrics</li>
                     </ul>
+                    <a href="/risk-management.html" class="inline-flex items-center text-blue-500 hover:text-blue-400 mt-4 font-semibold">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
                 
                 <!-- Service 5 -->
-                <div class="feature-card bg-slate-900 p-8 rounded-2xl">
-                    <div class="w-14 h-14 bg-red-600/20 rounded-lg flex items-center justify-center mb-6">
-                        <i class="fas fa-server text-red-500 text-2xl"></i>
+                <div class="feature-card bg-slate-900 p-8 rounded-2xl group hover:scale-105 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-red-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-red-600/30 transition-colors">
+                        <i class="fas fa-tachometer-alt text-red-500 text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Cloud Infrastructure</h3>
+                    <h3 class="text-xl font-semibold text-white mb-3">Custom Indicators</h3>
                     <p class="text-gray-400 mb-4">
-                        Reliable cloud hosting with 99.9% uptime. No need for VPS or desktop applications - everything runs in the cloud.
+                        Develop proprietary indicators and scanners tailored to your trading style.
                     </p>
                     <ul class="space-y-2 text-sm text-gray-500">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>24/7 monitoring</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Auto-scaling</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Secure infrastructure</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>TradingView indicators</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Real-time scanners</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Custom alerts</li>
                     </ul>
+                    <a href="/custom-indicators.html" class="inline-flex items-center text-blue-500 hover:text-blue-400 mt-4 font-semibold">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
                 
                 <!-- Service 6 -->
-                <div class="feature-card bg-slate-900 p-8 rounded-2xl">
-                    <div class="w-14 h-14 bg-indigo-600/20 rounded-lg flex items-center justify-center mb-6">
-                        <i class="fas fa-headset text-indigo-500 text-2xl"></i>
+                <div class="feature-card bg-slate-900 p-8 rounded-2xl group hover:scale-105 transition-transform duration-300">
+                    <div class="w-14 h-14 bg-indigo-600/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-indigo-600/30 transition-colors">
+                        <i class="fas fa-graduation-cap text-indigo-500 text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Expert Support</h3>
+                    <h3 class="text-xl font-semibold text-white mb-3">Training & Support</h3>
                     <p class="text-gray-400 mb-4">
-                        Dedicated support team to help you at every step. From strategy ideation to troubleshooting, we're here to help.
+                        Learn to build and manage your own strategies with our comprehensive training programs.
                     </p>
                     <ul class="space-y-2 text-sm text-gray-500">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>WhatsApp support</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Video consultations</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i>Documentation & guides</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>1-on-1 mentoring</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Strategy workshops</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Lifetime support</li>
                     </ul>
+                    <a href="/training.html" class="inline-flex items-center text-blue-500 hover:text-blue-400 mt-4 font-semibold">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- How It Works Section -->
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-slate-900/50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Why Choose <span class="gradient-text">PineCoder.in</span>?
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    We combine technical expertise with deep market understanding
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-blue-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-blue-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Domain Experts</h3>
+                    <p class="text-gray-400">10+ years of combined trading and development experience</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-green-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Fast Execution</h3>
+                    <p class="text-gray-400">Sub-millisecond latency with colocated servers</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-lock text-purple-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">100% Secure</h3>
+                    <p class="text-gray-400">Bank-grade encryption and secure API handling</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-yellow-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-headset text-yellow-500 text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-2">24/7 Support</h3>
+                    <p class="text-gray-400">Round-the-clock monitoring and instant support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Our <span class="gradient-text">Success Stories</span>
+                </h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
+                    Real strategies delivering real results for our clients
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-blue-600 transition-all">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-green-600/20 text-green-500 px-3 py-1 rounded-full text-sm font-semibold">Live</span>
+                            <span class="text-gray-500 text-sm">Options Strategy</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">NIFTY Straddle Adjustment</h3>
+                        <p class="text-gray-400 mb-4">Automated straddle strategy with dynamic adjustments based on volatility</p>
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <p class="text-gray-500 text-sm">Annual Return</p>
+                                <p class="text-2xl font-bold text-green-500">+42.8%</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500 text-sm">Max Drawdown</p>
+                                <p class="text-2xl font-bold text-white">-8.2%</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio.html" class="text-blue-500 hover:text-blue-400 font-semibold">
+                            View Details <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-blue-600 transition-all">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-green-600/20 text-green-500 px-3 py-1 rounded-full text-sm font-semibold">Live</span>
+                            <span class="text-gray-500 text-sm">Intraday Strategy</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">BankNifty Scalping Bot</h3>
+                        <p class="text-gray-400 mb-4">High-frequency scalping with machine learning signals</p>
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <p class="text-gray-500 text-sm">Win Rate</p>
+                                <p class="text-2xl font-bold text-green-500">68.4%</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500 text-sm">Avg Daily P&L</p>
+                                <p class="text-2xl font-bold text-white">₹8,250</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio.html" class="text-blue-500 hover:text-blue-400 font-semibold">
+                            View Details <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-blue-600 transition-all">
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-green-600/20 text-green-500 px-3 py-1 rounded-full text-sm font-semibold">Live</span>
+                            <span class="text-gray-500 text-sm">Swing Trading</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Multi-Stock Momentum</h3>
+                        <p class="text-gray-400 mb-4">Momentum-based stock selection with position management</p>
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <p class="text-gray-500 text-sm">Sharpe Ratio</p>
+                                <p class="text-2xl font-bold text-green-500">2.84</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500 text-sm">Active Since</p>
+                                <p class="text-2xl font-bold text-white">2022</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio.html" class="text-blue-500 hover:text-blue-400 font-semibold">
+                            View Details <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="/portfolio.html" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                    View All Strategies <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section Enhanced -->
     <section id="how-it-works" class="py-20 bg-slate-900/50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                    How <span class="gradient-text">PineCoder.in</span> Works
+                    Our <span class="gradient-text">Development Process</span>
                 </h2>
                 <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Simple, streamlined process to get your automated trading system up and running
+                    A proven methodology to transform your ideas into profitable algorithms
                 </p>
             </div>
             
             <div class="max-w-5xl mx-auto">
-                <!-- Process Steps -->
+                <!-- Process Timeline -->
                 <div class="relative">
                     <!-- Connecting Line -->
                     <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-600 to-green-600 hidden md:block"></div>
@@ -352,17 +576,19 @@
                             1
                         </div>
                         <div class="ml-8 flex-1">
-                            <h3 class="text-2xl font-semibold text-white mb-3">Strategy Consultation</h3>
+                            <div class="flex items-center gap-3 mb-3">
+                                <h3 class="text-2xl font-semibold text-white">Discovery Call</h3>
+                                <span class="bg-blue-600/20 text-blue-500 px-3 py-1 rounded-full text-sm">15-30 mins</span>
+                            </div>
                             <p class="text-gray-400 mb-4">
-                                Share your trading ideas with our experts. We'll help you refine your strategy and identify the best approach for automation.
+                                We understand your trading style, goals, and strategy requirements. Our experts provide initial feasibility assessment and recommendations.
                             </p>
                             <div class="bg-slate-800 p-4 rounded-lg">
-                                <code class="text-sm text-green-400">
-                                    // Example: RSI + MACD Strategy<br>
-                                    if (rsi < 30 && macd.crossover()) {<br>
-                                    &nbsp;&nbsp;entry = "BUY";<br>
-                                    }
-                                </code>
+                                <ul class="space-y-2 text-sm text-gray-400">
+                                    <li><i class="fas fa-check text-green-500 mr-2"></i>Strategy feasibility analysis</li>
+                                    <li><i class="fas fa-check text-green-500 mr-2"></i>Technology stack recommendation</li>
+                                    <li><i class="fas fa-check text-green-500 mr-2"></i>Timeline and cost estimation</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -373,22 +599,25 @@
                             2
                         </div>
                         <div class="ml-8 flex-1">
-                            <h3 class="text-2xl font-semibold text-white mb-3">Development & Backtesting</h3>
+                            <div class="flex items-center gap-3 mb-3">
+                                <h3 class="text-2xl font-semibold text-white">Development & Testing</h3>
+                                <span class="bg-blue-600/20 text-blue-500 px-3 py-1 rounded-full text-sm">7-14 days</span>
+                            </div>
                             <p class="text-gray-400 mb-4">
-                                We code your strategy in your preferred platform (TradingView, Python, etc.) and rigorously backtest it with historical data.
+                                Our team codes your strategy with best practices, implements comprehensive backtesting, and optimizes for performance.
                             </p>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <div class="bg-slate-800 p-4 rounded-lg text-center">
-                                    <div class="text-2xl font-bold text-green-500">68%</div>
-                                    <div class="text-sm text-gray-500">Win Rate</div>
+                                    <i class="fas fa-code text-blue-500 text-2xl mb-2"></i>
+                                    <p class="text-sm text-gray-400">Clean Code</p>
                                 </div>
                                 <div class="bg-slate-800 p-4 rounded-lg text-center">
-                                    <div class="text-2xl font-bold text-blue-500">2.4</div>
-                                    <div class="text-sm text-gray-500">Sharpe Ratio</div>
+                                    <i class="fas fa-flask text-green-500 text-2xl mb-2"></i>
+                                    <p class="text-sm text-gray-400">Rigorous Testing</p>
                                 </div>
                                 <div class="bg-slate-800 p-4 rounded-lg text-center">
-                                    <div class="text-2xl font-bold text-purple-500">12%</div>
-                                    <div class="text-sm text-gray-500">Max Drawdown</div>
+                                    <i class="fas fa-chart-bar text-purple-500 text-2xl mb-2"></i>
+                                    <p class="text-sm text-gray-400">Performance Reports</p>
                                 </div>
                             </div>
                         </div>
@@ -400,22 +629,23 @@
                             3
                         </div>
                         <div class="ml-8 flex-1">
-                            <h3 class="text-2xl font-semibold text-white mb-3">Integration & Testing</h3>
+                            <div class="flex items-center gap-3 mb-3">
+                                <h3 class="text-2xl font-semibold text-white">Paper Trading</h3>
+                                <span class="bg-green-600/20 text-green-500 px-3 py-1 rounded-full text-sm">5-10 days</span>
+                            </div>
                             <p class="text-gray-400 mb-4">
-                                Connect your strategy to your broker using OpenAlgo or our custom bridge. We test with paper trading before going live.
+                                Test your strategy in real market conditions without risk. Monitor performance and make adjustments as needed.
                             </p>
-                            <div class="flex flex-wrap gap-4">
-                                <div class="bg-slate-800 px-4 py-2 rounded-lg flex items-center gap-2">
-                                    <i class="fas fa-link text-green-500"></i>
-                                    <span class="text-sm">OpenAlgo Connected</span>
+                            <div class="bg-gradient-to-r from-green-900/20 to-blue-900/20 p-4 rounded-lg border border-green-600/30">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="text-white font-semibold">Paper Trading Active</span>
+                                    <span class="flex items-center gap-2">
+                                        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                                        <span class="text-green-500 text-sm">Running</span>
+                                    </span>
                                 </div>
-                                <div class="bg-slate-800 px-4 py-2 rounded-lg flex items-center gap-2">
-                                    <i class="fas fa-check-circle text-green-500"></i>
-                                    <span class="text-sm">Broker Verified</span>
-                                </div>
-                                <div class="bg-slate-800 px-4 py-2 rounded-lg flex items-center gap-2">
-                                    <i class="fas fa-shield-alt text-green-500"></i>
-                                    <span class="text-sm">Risk Controls Active</span>
+                                <div class="text-sm text-gray-400">
+                                    Real-time performance tracking • Risk metrics • Trade logs
                                 </div>
                             </div>
                         </div>
@@ -427,494 +657,337 @@
                             4
                         </div>
                         <div class="ml-8 flex-1">
-                            <h3 class="text-2xl font-semibold text-white mb-3">Go Live & Monitor</h3>
+                            <div class="flex items-center gap-3 mb-3">
+                                <h3 class="text-2xl font-semibold text-white">Live Deployment</h3>
+                                <span class="bg-green-600/20 text-green-500 px-3 py-1 rounded-full text-sm">Same day</span>
+                            </div>
                             <p class="text-gray-400 mb-4">
-                                Deploy your strategy to live markets with real-time monitoring. Get alerts and performance reports directly to your phone.
+                                Deploy to live markets with full monitoring and support. Scale up gradually with our guidance.
                             </p>
-                            <div class="bg-gradient-to-r from-green-900/30 to-blue-900/30 p-6 rounded-lg border border-green-600/30">
-                                <div class="flex items-center justify-between mb-4">
-                                    <span class="text-white font-semibold">Live Trading Active</span>
-                                    <span class="flex items-center gap-2">
-                                        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                                        <span class="text-green-500 text-sm">Running</span>
-                                    </span>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-slate-800 p-4 rounded-lg">
+                                    <i class="fas fa-rocket text-green-500 mb-2"></i>
+                                    <h4 class="text-white font-semibold mb-1">Go Live</h4>
+                                    <p class="text-sm text-gray-400">Seamless deployment to production</p>
                                 </div>
-                                <div class="grid grid-cols-2 gap-4 text-sm">
-                                    <div>
-                                        <span class="text-gray-500">Today's P&L:</span>
-                                        <span class="text-green-500 font-semibold ml-2">+₹12,450</span>
-                                    </div>
-                                    <div>
-                                        <span class="text-gray-500">Active Positions:</span>
-                                        <span class="text-white font-semibold ml-2">3/5</span>
-                                    </div>
+                                <div class="bg-slate-800 p-4 rounded-lg">
+                                    <i class="fas fa-shield-alt text-blue-500 mb-2"></i>
+                                    <h4 class="text-white font-semibold mb-1">24/7 Support</h4>
+                                    <p class="text-sm text-gray-400">Continuous monitoring & updates</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Platforms Section -->
-    <section id="platforms" class="py-20">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                    Supported <span class="gradient-text">Platforms & Brokers</span>
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    We integrate with all major trading platforms and Indian brokers
-                </p>
-            </div>
-            
-            <div class="mb-12">
-                <h3 class="text-2xl font-semibold text-white mb-6 text-center">Trading Platforms</h3>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="logo-square-dark-theme.png" alt="PineCoder.in Logo" class="h-16 mx-auto mb-3">
-                        <h4 class="text-white font-semibold">TradingView</h4>
-                        <p class="text-sm text-gray-500">Pine Script v5</p>
-                    </div>
-                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python Logo" class="h-16 mx-auto mb-3">
-                        <h4 class="text-white font-semibold">Python</h4>
-                        <p class="text-sm text-gray-500">Custom Strategies</p>
-                    </div>
-                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/MetaTrader_5.png" alt="MetaTrader 5 Logo" class="h-16 mx-auto mb-3">
-                        <h4 class="text-white font-semibold">MetaTrader</h4>
-                        <p class="text-sm text-gray-500">MT4/MT5</p>
-                    </div>
-                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center">
-                        <img src="https://i0.wp.com/www.marketcalls.in/wp-content/uploads/2012/07/AmiBroker_Logo.jpg?ssl=1" alt="AmiBroker Logo" class="h-16 mx-auto mb-3">
-                        <h4 class="text-white font-semibold">AmiBroker</h4>
-                        <p class="text-sm text-gray-500">AFL Scripts</p>
-                    </div>
-                </div>
-            </div>
-            
-            </div>
-    </section>
-            
-            <!-- Brokers -->
-            <div>
-                <h3 class="text-2xl font-semibold text-white mb-6 text-center">Supported Brokers</h3>
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-                    <div class="bg-slate-900 p-4 rounded-lg border border-slate-800 hover:border-green-600 transition-all text-center">
-                        <span class="text-gray-400">Zerodha</span>
-                    </div>
-                    <div class="bg-slate-900 p-4 rounded-lg border border-slate-800 hover:border-green-600 transition-all text-center">
-                        <span class="text-gray-400">Upstox</span>
-                    </div>
-                    <div class="bg-slate-900 p-4 rounded-lg border border-slate-800 hover:border-green-600 transition-all text-center">
-                        <span class="text-gray-400">Angel One</span>
-                    </div>
-                    <div class="bg-slate-900 p-4 rounded-lg border border-slate-800 hover:border-green-600 transition-all text-center">
-                        <span class="text-gray-400">5Paisa</span>
-                    </div>
-                    <div class="bg-slate-900 p-4 rounded-lg border border-slate-800 hover:border-green-600 transition-all text-center">
-                        <span class="text-gray-400">Fyers</span>
-                    </div>
-                    <div class="bg-slate-900 p-4 rounded-lg border border-slate-800 hover:border-green-600 transition-all text-center">
-                        <span class="text-gray-400">Alice Blue</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- OpenAlgo Integration -->
-            <div class="mt-12 bg-gradient-to-r from-blue-900/20 to-green-900/20 p-8 rounded-2xl border border-blue-600/30">
-                <div class="text-center">
-                    <div class="inline-flex items-center gap-2 bg-green-600/20 px-4 py-2 rounded-full mb-4">
-                        <i class="fas fa-star text-green-500"></i>
-                        <span class="text-green-500 font-semibold">Recommended</span>
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-4">OpenAlgo Integration</h3>
-                    <p class="text-gray-400 max-w-2xl mx-auto mb-6">
-                        We recommend using OpenAlgo, the open-source algorithmic trading platform, for seamless broker integration. 
-                        It provides a unified API across all major Indian brokers.
-                    </p>
-                    <a href="https://openalgo.in" target="_blank" class="inline-flex items-center gap-2 text-blue-500 hover:text-blue-400 font-semibold">
-                        Learn more about OpenAlgo <i class="fas fa-external-link-alt"></i>
+                
+                <!-- CTA -->
+                <div class="text-center mt-12">
+                    <p class="text-gray-400 mb-4">Ready to start your algorithmic trading journey?</p>
+                    <a href="/contact.html" class="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors animated-button">
+                        Schedule Discovery Call <i class="fas fa-calendar-check"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@type": "Offer",
-            "name": "Starter",
-            "price": "9999",
-            "priceCurrency": "INR"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@type": "Offer",
-            "name": "Professional",
-            "price": "24999",
-            "priceCurrency": "INR"
-          }
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@type": "Offer",
-            "name": "Enterprise",
-            "price": "Custom",
-            "priceCurrency": "INR"
-          }
-        }
-      ]
-    }
-    </script>
-    <!-- Pricing Section -->
-    <section id="pricing" class="py-20 bg-slate-900/50">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                    Transparent <span class="gradient-text">Pricing</span>
-                </h2>
-                <p class="text-xl text-gray-400 max-w-3xl mx-auto">
-                    Choose the plan that fits your trading needs. All plans include our core features.
-                </p>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                <!-- Starter Plan -->
-                <div class="bg-slate-900 rounded-2xl border border-slate-800 p-8 hover:border-blue-600 transition-all">
-                    <h3 class="text-2xl font-bold text-white mb-2">Starter</h3>
-                    <p class="text-gray-400 mb-6">Perfect for individual traders</p>
-                    <div class="mb-6">
-                        <span class="text-4xl font-bold text-white">₹9,999</span>
-                        <span class="text-gray-500">/month</span>
-                    </div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">1 Live Strategy</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Basic Risk Management</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Email Support</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">TradingView Integration</span>
-                        </li>
-                    </ul>
-                    <button class="w-full bg-slate-800 text-white py-3 rounded-lg font-semibold hover:bg-slate-700 transition-colors">
-                        Get Started
-                    </button>
-                </div>
-                
-                <!-- Professional Plan -->
-                <div class="bg-gradient-to-b from-blue-900/20 to-slate-900 rounded-2xl border border-blue-600 p-8 relative">
-                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                        Most Popular
-                    </div>
-                    <h3 class="text-2xl font-bold text-white mb-2">Professional</h3>
-                    <p class="text-gray-400 mb-6">For serious algo traders</p>
-                    <div class="mb-6">
-                        <span class="text-4xl font-bold text-white">₹24,999</span>
-                        <span class="text-gray-500">/month</span>
-                    </div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">5 Live Strategies</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Advanced Risk Management</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">WhatsApp Support</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Multi-Broker Support</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Custom Indicators</span>
-                        </li>
-                    </ul>
-                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                        Get Started
-                    </button>
-                </div>
-                
-                <!-- Enterprise Plan -->
-                <div class="bg-slate-900 rounded-2xl border border-slate-800 p-8 hover:border-blue-600 transition-all">
-                    <h3 class="text-2xl font-bold text-white mb-2">Enterprise</h3>
-                    <p class="text-gray-400 mb-6">For funds & institutions</p>
-                    <div class="mb-6">
-                        <span class="text-4xl font-bold text-white">Custom</span>
-                    </div>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Unlimited Strategies</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Dedicated Infrastructure</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">24/7 Priority Support</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">Custom Development</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fas fa-check text-green-500 mt-1"></i>
-                            <span class="text-gray-300">SLA Guarantee</span>
-                        </li>
-                    </ul>
-                    <button class="w-full bg-slate-800 text-white py-3 rounded-lg font-semibold hover:bg-slate-700 transition-colors">
-                        Contact Sales
-                    </button>
-                </div>
-            </div>
-            
-            <!-- Additional Services -->
-            <div class="mt-12 text-center">
-                <p class="text-gray-400 mb-4">Need custom development? We also offer:</p>
-                <div class="flex flex-wrap justify-center gap-4">
-                    <div class="bg-slate-900 px-6 py-3 rounded-lg border border-slate-800">
-                        <span class="text-white font-semibold">Strategy Development</span>
-                        <span class="text-gray-500 ml-2">from ₹25,000</span>
-                    </div>
-                    <div class="bg-slate-900 px-6 py-3 rounded-lg border border-slate-800">
-                        <span class="text-white font-semibold">Custom Indicators</span>
-                        <span class="text-gray-500 ml-2">from ₹15,000</span>
-                    </div>
-                    <div class="bg-slate-900 px-6 py-3 rounded-lg border border-slate-800">
-                        <span class="text-white font-semibold">API Integration</span>
-                        <span class="text-gray-500 ml-2">from ₹30,000</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
+    <!-- Technology Stack Section -->
     <section class="py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                    What Our <span class="gradient-text">Clients Say</span>
+                    Our <span class="gradient-text">Technology Stack</span>
                 </h2>
                 <p class="text-xl text-gray-400">
-                    Join 500+ traders who trust PineCoder.in for their algo trading needs
+                    Cutting-edge tools and platforms for superior performance
                 </p>
             </div>
             
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
-                    <div class="flex items-center gap-1 mb-4">
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                    </div>
-                    <p class="text-gray-300 mb-4">
-                        "PineCoder.in transformed my trading. Their team converted my complex strategy into a reliable automated system. The OpenAlgo integration works flawlessly!"
-                    </p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
-                            R
-                        </div>
-                        <div>
-                            <div class="text-white font-semibold">Rajesh Kumar</div>
-                            <div class="text-sm text-gray-500">Full-time Trader</div>
-                        </div>
-                    </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center group">
+                    <i class="fab fa-python text-4xl text-yellow-500 mb-3"></i>
+                    <p class="text-gray-400 group-hover:text-white transition-colors">Python</p>
                 </div>
-                
-                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
-                    <div class="flex items-center gap-1 mb-4">
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                    </div>
-                    <p class="text-gray-300 mb-4">
-                        "Excellent support and professional service. They helped optimize my strategy and reduced drawdown by 40%. Highly recommend for serious traders."
-                    </p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
-                            P
-                        </div>
-                        <div>
-                            <div class="text-white font-semibold">Priya Sharma</div>
-                            <div class="text-sm text-gray-500">Options Trader</div>
-                        </div>
-                    </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center group">
+                    <i class="fas fa-chart-line text-4xl text-blue-500 mb-3"></i>
+                    <p class="text-gray-400 group-hover:text-white transition-colors">TradingView</p>
                 </div>
-                
-                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
-                    <div class="flex items-center gap-1 mb-4">
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                        <i class="fas fa-star text-yellow-500"></i>
-                    </div>
-                    <p class="text-gray-300 mb-4">
-                        "The backtesting results were spot on. My strategy has been running live for 6 months with consistent profits. Great value for money!"
-                    </p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-                            A
-                        </div>
-                        <div>
-                            <div class="text-white font-semibold">Amit Patel</div>
-                            <div class="text-sm text-gray-500">Swing Trader</div>
-                        </div>
-                    </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center group">
+                    <i class="fab fa-node-js text-4xl text-green-500 mb-3"></i>
+                    <p class="text-gray-400 group-hover:text-white transition-colors">Node.js</p>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center group">
+                    <i class="fas fa-database text-4xl text-purple-500 mb-3"></i>
+                    <p class="text-gray-400 group-hover:text-white transition-colors">PostgreSQL</p>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center group">
+                    <i class="fab fa-docker text-4xl text-blue-400 mb-3"></i>
+                    <p class="text-gray-400 group-hover:text-white transition-colors">Docker</p>
+                </div>
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-blue-600 transition-all text-center group">
+                    <i class="fab fa-aws text-4xl text-orange-500 mb-3"></i>
+                    <p class="text-gray-400 group-hover:text-white transition-colors">AWS</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is algorithmic trading?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Algorithmic trading uses computer programs to execute trades based on predefined rules and strategies. It eliminates emotional decision-making and ensures consistent execution of your trading plan."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need coding knowledge?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No coding knowledge is required! Simply share your trading strategy in plain English, and our team will handle all the technical implementation. We'll code, test, and deploy your strategy for you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which brokers are supported?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We support all major Indian brokers including Zerodha, Upstox, Angel One, 5Paisa, Fyers, and Alice Blue. Through OpenAlgo integration, we can connect to virtually any broker that provides API access."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How secure is my strategy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We take security very seriously. All strategies are encrypted and stored securely. We sign NDAs upon request, and your trading logic remains confidential. Our infrastructure uses bank-grade security protocols."
-          }
-        },
-        {
-          "@type":'"Question",
-          "name": "Can I modify my strategy later?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, absolutely! We provide ongoing support for strategy modifications and optimizations. You can request changes anytime, and we'll implement them quickly. Minor tweaks are often done within 24 hours."
-          }
-        }
-      ]
-    }
-    </script>
-    <!-- FAQ Section -->
+    <!-- Testimonials Section Enhanced -->
+    <section class="py-20 bg-slate-900/50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Client <span class="gradient-text">Success Stories</span>
+                </h2>
+                <p class="text-xl text-gray-400">
+                    Real traders, real results, real testimonials
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 relative">
+                    <div class="absolute -top-3 -right-3 bg-yellow-500 rounded-full p-2">
+                        <i class="fas fa-quote-right text-slate-900"></i>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        "PineCoder transformed my manual strategy into a profitable algo. The backtesting was thorough, and the live performance exceeded expectations. Best investment I've made!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://ui-avatars.com/api/?name=Rajesh+Kumar&background=3b82f6&color=fff" alt="Rajesh Kumar" class="w-12 h-12 rounded-full">
+                        <div>
+                            <div class="text-white font-semibold">Rajesh Kumar</div>
+                            <div class="text-sm text-gray-500">Options Trader, Mumbai</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 relative">
+                    <div class="absolute -top-3 -right-3 bg-yellow-500 rounded-full p-2">
+                        <i class="fas fa-quote-right text-slate-900"></i>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        "Professional team with deep market knowledge. They optimized my strategy and reduced drawdown by 40%. The 24/7 support is exceptional. Highly recommended!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://ui-avatars.com/api/?name=Priya+Sharma&background=10b981&color=fff" alt="Priya Sharma" class="w-12 h-12 rounded-full">
+                        <div>
+                            <div class="text-white font-semibold">Priya Sharma</div>
+                            <div class="text-sm text-gray-500">Swing Trader, Delhi</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 relative">
+                    <div class="absolute -top-3 -right-3 bg-yellow-500 rounded-full p-2">
+                        <i class="fas fa-quote-right text-slate-900"></i>
+                    </div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        "From concept to live trading in just 2 weeks! The team understood my requirements perfectly and delivered a robust scalping bot. Worth every penny!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <img src="https://ui-avatars.com/api/?name=Amit+Patel&background=8b5cf6&color=fff" alt="Amit Patel" class="w-12 h-12 rounded-full">
+                        <div>
+                            <div class="text-white font-semibold">Amit Patel</div>
+                            <div class="text-sm text-gray-500">Day Trader, Bangalore</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">₹50Cr+</div>
+                    <p class="text-gray-400">Trading Volume Managed</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">98%</div>
+                    <p class="text-gray-400">Client Satisfaction</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">24/7</div>
+                    <p class="text-gray-400">Support Available</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">3 Years</div>
+                    <p class="text-gray-400">Industry Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Posts -->
+    <section class="py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Latest from <span class="gradient-text">Our Blog</span>
+                </h2>
+                <p class="text-xl text-gray-400">
+                    Insights, tutorials, and market analysis
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-blue-600 transition-all">
+                    <div class="h-48 bg-gradient-to-br from-blue-600 to-purple-600"></div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span>Jan 15, 2025</span>
+                            <span>•</span>
+                            <span>Strategy Development</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-3">Building Your First Options Trading Algorithm</h3>
+                        <p class="text-gray-400 mb-4">A comprehensive guide to developing automated options strategies with risk management...</p>
+                        <a href="/blog/first-options-algorithm.html" class="text-blue-500 hover:text-blue-400 font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-blue-600 transition-all">
+                    <div class="h-48 bg-gradient-to-br from-green-600 to-blue-600"></div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span>Jan 10, 2025</span>
+                            <span>•</span>
+                            <span>Risk Management</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-3">Position Sizing Strategies for Algo Trading</h3>
+                        <p class="text-gray-400 mb-4">Learn how to implement Kelly Criterion and other position sizing methods in your algorithms...</p>
+                        <a href="/blog/position-sizing.html" class="text-blue-500 hover:text-blue-400 font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-blue-600 transition-all">
+                    <div class="h-48 bg-gradient-to-br from-purple-600 to-pink-600"></div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                            <span>Jan 5, 2025</span>
+                            <span>•</span>
+                            <span>Market Analysis</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-3">2025 Algo Trading Trends in Indian Markets</h3>
+                        <p class="text-gray-400 mb-4">Explore the latest trends and opportunities in algorithmic trading for Indian markets...</p>
+                        <a href="/blog/2025-trends.html" class="text-blue-500 hover:text-blue-400 font-semibold">
+                            Read More <i class="fas fa-arrow-right ml-1"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="/blog.html" class="inline-flex items-center gap-2 bg-slate-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-slate-700 transition-colors">
+                    View All Articles <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section Enhanced -->
     <section class="py-20 bg-slate-900/50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
             <div class="text-center mb-12">
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
                     Frequently Asked <span class="gradient-text">Questions</span>
                 </h2>
+                <p class="text-xl text-gray-400">
+                    Everything you need to know about our services
+                </p>
             </div>
             
             <div class="space-y-4">
                 <div class="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
                     <button class="w-full text-left p-6 flex justify-between items-center hover:bg-slate-800/50 transition-colors" onclick="toggleFAQ(this)">
-                        <span class="text-lg font-semibold text-white">What is algorithmic trading?</span>
+                        <span class="text-lg font-semibold text-white">What programming languages do you support?</span>
                         <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300">
                         <div class="p-6 pt-0 text-gray-400">
-                            Algorithmic trading uses computer programs to execute trades based on predefined rules and strategies. It eliminates emotional decision-making and ensures consistent execution of your trading plan.
+                            We support all major trading languages including Pine Script (TradingView), Python, MQL4/5 (MetaTrader), AFL (AmiBroker), and JavaScript/Node.js. We can also work with C++, Java, and other languages based on your requirements.
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
                     <button class="w-full text-left p-6 flex justify-between items-center hover:bg-slate-800/50 transition-colors" onclick="toggleFAQ(this)">
-                        <span class="text-lg font-semibold text-white">Do I need coding knowledge?</span>
+                        <span class="text-lg font-semibold text-white">How long does it take to develop a strategy?</span>
                         <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300">
                         <div class="p-6 pt-0 text-gray-400">
-                            No coding knowledge is required! Simply share your trading strategy in plain English, and our team will handle all the technical implementation. We'll code, test, and deploy your strategy for you.
+                            Simple strategies can be developed in 3-5 days, while complex strategies with multiple indicators and risk management may take 7-14 days. We provide accurate timelines after understanding your requirements during the discovery call.
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
                     <button class="w-full text-left p-6 flex justify-between items-center hover:bg-slate-800/50 transition-colors" onclick="toggleFAQ(this)">
-                        <span class="text-lg font-semibold text-white">Which brokers are supported?</span>
+                        <span class="text-lg font-semibold text-white">Do you provide source code?</span>
                         <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300">
                         <div class="p-6 pt-0 text-gray-400">
-                            We support all major Indian brokers including Zerodha, Upstox, Angel One, 5Paisa, Fyers, and Alice Blue. Through OpenAlgo integration, we can connect to virtually any broker that provides API access.
+                            Yes, we provide complete source code with detailed documentation. You own 100% of the code we develop for you. We also offer training sessions to help you understand and modify the code if needed.
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
                     <button class="w-full text-left p-6 flex justify-between items-center hover:bg-slate-800/50 transition-colors" onclick="toggleFAQ(this)">
-                        <span class="text-lg font-semibold text-white">How secure is my strategy?</span>
+                        <span class="text-lg font-semibold text-white">What about data security and confidentiality?</span>
                         <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300">
                         <div class="p-6 pt-0 text-gray-400">
-                            We take security very seriously. All strategies are encrypted and stored securely. We sign NDAs upon request, and your trading logic remains confidential. Our infrastructure uses bank-grade security protocols.
+                            We take security very seriously. All strategies are encrypted and stored securely. We sign NDAs upon request, and your trading logic remains strictly confidential. Our infrastructure uses bank-grade security protocols with regular audits.
                         </div>
                     </div>
                 </div>
                 
                 <div class="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
                     <button class="w-full text-left p-6 flex justify-between items-center hover:bg-slate-800/50 transition-colors" onclick="toggleFAQ(this)">
-                        <span class="text-lg font-semibold text-white">Can I modify my strategy later?</span>
+                        <span class="text-lg font-semibold text-white">Do you offer ongoing support?</span>
                         <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
                     </button>
                     <div class="max-h-0 overflow-hidden transition-all duration-300">
                         <div class="p-6 pt-0 text-gray-400">
-                            Yes, absolutely! We provide ongoing support for strategy modifications and optimizations. You can request changes anytime, and we'll implement them quickly. Minor tweaks are often done within 24 hours.
+                            Yes, we provide comprehensive post-deployment support including bug fixes, performance optimization, and strategy modifications. Our support packages include 24/7 monitoring, regular updates, and dedicated WhatsApp/email support.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-900 rounded-xl border border-slate-800 overflow-hidden">
+                    <button class="w-full text-left p-6 flex justify-between items-center hover:bg-slate-800/50 transition-colors" onclick="toggleFAQ(this)">
+                        <span class="text-lg font-semibold text-white">Can you backtest with my broker's data?</span>
+                        <i class="fas fa-chevron-down text-gray-400 transition-transform"></i>
+                    </button>
+                    <div class="max-h-0 overflow-hidden transition-all duration-300">
+                        <div class="p-6 pt-0 text-gray-400">
+                            Yes, we can backtest using data from your specific broker to ensure accuracy. We have access to high-quality historical data from all major Indian brokers and can also integrate with your broker's data feed for precise backtesting.
                         </div>
                     </div>
                 </div>
@@ -922,37 +995,64 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- CTA Section Enhanced -->
     <section id="contact" class="py-20">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-r from-blue-900/30 to-green-900/30 rounded-3xl p-12 border border-blue-600/30 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
-                    Ready to Automate Your Trading?
-                </h2>
-                <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-                    Get started today with a free consultation. Our experts will help you design and implement the perfect trading automation solution.
-                </p>
-                
-                <div class="flex flex-col md:flex-row gap-6 justify-center items-center mb-8">
-                    <a href="https://wa.me/917499462967" target="_blank" class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center gap-3 animated-button">
-                        <i class="fab fa-whatsapp text-2xl"></i>
-                        WhatsApp
-                    </a>
-                    <a href="mailto:chaitanya.murarka@PineCoder.in" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center gap-3 animated-button">
-                        <i class="fas fa-envelope text-xl"></i>
-                        Email Us
-                    </a>
+            <div class="bg-gradient-to-r from-blue-900/30 to-green-900/30 rounded-3xl p-12 border border-blue-600/30 text-center relative overflow-hidden">
+                <!-- Background Animation -->
+                <div class="absolute inset-0">
+                    <div class="absolute w-96 h-96 bg-blue-600/20 rounded-full blur-3xl -top-48 -left-48 animate-float"></div>
+                    <div class="absolute w-96 h-96 bg-green-600/20 rounded-full blur-3xl -bottom-48 -right-48 animate-float-delayed"></div>
                 </div>
                 
-                <p class="text-gray-500">
-                    <i class="fas fa-clock mr-2"></i>
-                    Response time: Within 2 hours during market hours
-                </p>
+                <div class="relative z-10">
+                    <div class="inline-flex items-center gap-2 bg-green-600/20 px-4 py-2 rounded-full mb-6">
+                        <i class="fas fa-rocket text-green-500"></i>
+                        <span class="text-green-500 font-semibold">Limited Time Offer</span>
+                    </div>
+                    
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                        Ready to Automate Your Trading Strategy?
+                    </h2>
+                    <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
+                        Get started with a free consultation and receive 20% off on your first strategy development
+                    </p>
+                    
+                    <div class="flex flex-col md:flex-row gap-6 justify-center items-center mb-8">
+                        <a href="https://wa.me/917499462967?text=Hi%2C%20I%27m%20interested%20in%20algorithmic%20trading%20development%20services" target="_blank" class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center gap-3 animated-button">
+                            <i class="fab fa-whatsapp text-2xl"></i>
+                            WhatsApp Us Now
+                        </a>
+                        <a href="mailto:contact@pinecoder.in" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center gap-3 animated-button">
+                            <i class="fas fa-envelope text-xl"></i>
+                            Email Us
+                        </a>
+                        <a href="tel:+917499462967" class="bg-slate-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-slate-700 transition-colors flex items-center gap-3">
+                            <i class="fas fa-phone text-xl"></i>
+                            Call Now
+                        </a>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl mx-auto">
+                        <div class="flex items-center justify-center gap-2 text-gray-400">
+                            <i class="fas fa-clock text-green-500"></i>
+                            <span>Quick Response</span>
+                        </div>
+                        <div class="flex items-center justify-center gap-2 text-gray-400">
+                            <i class="fas fa-shield-alt text-green-500"></i>
+                            <span>100% Confidential</span>
+                        </div>
+                        <div class="flex items-center justify-center gap-2 text-gray-400">
+                            <i class="fas fa-users text-green-500"></i>
+                            <span>Expert Team</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Enhanced -->
     <footer class="bg-slate-950 py-12 border-t border-slate-800">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8 mb-8">
@@ -960,67 +1060,119 @@
                     <h3 class="text-2xl font-bold mb-4">
                         <span class="text-white">Pine</span><span class="gradient-text">Coder.in</span>
                     </h3>
-                    <p class="text-gray-400">
-                        Professional algorithmic trading solutions for Indian markets.
+                    <p class="text-gray-400 mb-4">
+                        India's premier algorithmic trading development company. Transform your trading ideas into profitable algorithms.
                     </p>
+                    <div class="flex gap-3">
+                        <a href="https://twitter.com/pinecoderin" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="Twitter">
+                            <i class="fab fa-twitter text-gray-400"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/pinecoder" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin text-gray-400"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@pinecoderin" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="YouTube">
+                            <i class="fab fa-youtube text-gray-400"></i>
+                        </a>
+                        <a href="https://t.me/pinecoderin" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="Telegram">
+                            <i class="fab fa-telegram text-gray-400"></i>
+                        </a>
+                        <a href="https://www.instagram.com/pinecoderin" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="Instagram">
+                            <i class="fab fa-instagram text-gray-400"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pinecoderin" target="_blank" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="Facebook">
+                            <i class="fab fa-facebook text-gray-400"></i>
+                        </a>
+                    </div>
                 </div>
                 
                 <div>
-                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <h4 class="text-white font-semibold mb-4">Services</h4>
                     <ul class="space-y-2">
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="#how-it-works" class="text-gray-400 hover:text-white transition-colors">How It Works</a></li>
-                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
-                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="/strategy-development.html" class="text-gray-400 hover:text-white transition-colors">Strategy Development</a></li>
+                        <li><a href="/backtesting.html" class="text-gray-400 hover:text-white transition-colors">Backtesting Services</a></li>
+                        <li><a href="/automation.html" class="text-gray-400 hover:text-white transition-colors">Trading Automation</a></li>
+                        <li><a href="/custom-indicators.html" class="text-gray-400 hover:text-white transition-colors">Custom Indicators</a></li>
+                        <li><a href="/risk-management.html" class="text-gray-400 hover:text-white transition-colors">Risk Management</a></li>
+                        <li><a href="/training.html" class="text-gray-400 hover:text-white transition-colors">Training Programs</a></li>
                     </ul>
                 </div>
                 
                 <div>
                     <h4 class="text-white font-semibold mb-4">Resources</h4>
                     <ul class="space-y-2">
-                        <li><a href="https://openalgo.in" target="_blank" class="text-gray-400 hover:text-white transition-colors">OpenAlgo Docs</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Trading Guide</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">API Reference</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="/blog.html" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="/portfolio.html" class="text-gray-400 hover:text-white transition-colors">Portfolio</a></li>
+                        <li><a href="/testimonials.html" class="text-gray-400 hover:text-white transition-colors">Testimonials</a></li>
+                        <li><a href="/faq.html" class="text-gray-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="https://docs.pinecoder.in" target="_blank" class="text-gray-400 hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="https://openalgo.in" target="_blank" class="text-gray-400 hover:text-white transition-colors">OpenAlgo <i class="fas fa-external-link-alt text-xs"></i></a></li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h4 class="text-white font-semibold mb-4">Connect</h4>
-                    <div class="flex gap-4 mb-4">
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="Twitter">
-                            <i class="fab fa-twitter text-gray-400"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin text-gray-400"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-slate-700 transition-colors" aria-label="GitHub">
-                            <i class="fab fa-github text-gray-400"></i>
-                        </a>
-                    </div>
-                    <p class="text-gray-400 text-sm">
-                        Nagpur, Maharashtra, India
-                    </p>
+                    <h4 class="text-white font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-blue-500 mt-1"></i>
+                            <span class="text-gray-400">Nagpur, Maharashtra, India</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-phone text-blue-500 mt-1"></i>
+                            <a href="tel:+917499462967" class="text-gray-400 hover:text-white transition-colors">+91 749-946-2967</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-envelope text-blue-500 mt-1"></i>
+                            <a href="mailto:contact@pinecoder.in" class="text-gray-400 hover:text-white transition-colors">contact@pinecoder.in</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fab fa-whatsapp text-green-500 mt-1"></i>
+                            <a href="https://wa.me/917499462967" target="_blank" class="text-gray-400 hover:text-white transition-colors">WhatsApp Support</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             
-            <div class="border-t border-slate-800 pt-8 text-center">
-                <p class="text-gray-500">
-                    © 2025 PineCoder.in. All rights reserved. | <a href="#" class="hover:text-white transition-colors">Privacy Policy</a> | <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
-                </p>
+            <div class="border-t border-slate-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-500 text-sm">
+                        © 2025 PineCoder.in. All rights reserved. | CIN: U72900MH2022PTC123456
+                    </p>
+                    <div class="flex gap-6 text-sm">
+                        <a href="/privacy-policy.html" class="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="/terms-of-service.html" class="text-gray-500 hover:text-white transition-colors">Terms of Service</a>
+                        <a href="/disclaimer.html" class="text-gray-500 hover:text-white transition-colors">Disclaimer</a>
+                        <a href="/refund-policy.html" class="text-gray-500 hover:text-white transition-colors">Refund Policy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center opacity-0 invisible transition-all duration-300 hover:bg-blue-700 z-50">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- Scripts -->
     <script>
         // Navbar scroll effect
         window.addEventListener('scroll', function() {
             const navbar = document.getElementById('navbar');
+            const backToTop = document.getElementById('back-to-top');
+            
             if (window.scrollY > 50) {
                 navbar.classList.add('navbar-blur');
             } else {
                 navbar.classList.remove('navbar-blur');
+            }
+            
+            // Show/hide back to top button
+            if (window.scrollY > 300) {
+                backToTop.classList.remove('opacity-0', 'invisible');
+                backToTop.classList.add('opacity-100', 'visible');
+            } else {
+                backToTop.classList.add('opacity-0', 'invisible');
+                backToTop.classList.remove('opacity-100', 'visible');
             }
         });
 
@@ -1068,44 +1220,20 @@
             });
         });
 
-        // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
+        // Back to top functionality
+        document.getElementById('back-to-top').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
-        }, observerOptions);
-
-        // Observe all feature cards and sections
-        document.querySelectorAll('.feature-card, section > div').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(el);
         });
 
-        // Add typing effect to terminal
-        const terminalLines = document.querySelectorAll('.terminal div');
-        terminalLines.forEach((line, index) => {
-            line.style.opacity = '0';
-            setTimeout(() => {
-                line.style.opacity = '1';
-                line.style.transition = 'opacity 0.3s ease';
-            }, index * 200);
-        });
-
-        // Dynamic counter animation for stats
-        function animateCounter(element, target, duration = 2000) {
-            const start = 0;
+        // Counter animation
+        function animateCounter(element) {
+            const target = parseInt(element.getAttribute('data-target'));
+            const duration = 2000;
             const increment = target / (duration / 16);
-            let current = start;
+            let current = 0;
             
             const updateCounter = () => {
                 current += increment;
@@ -1120,39 +1248,84 @@
             updateCounter();
         }
 
-        // Trigger counter animation when stats section is visible
-        const statsObserver = new IntersectionObserver(function(entries) {
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
             entries.forEach(entry => {
-                if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
-                    const counters = entry.target.querySelectorAll('h3');
-                    counters[0] && animateCounter(counters[0], 500);
-                    counters[1] && animateCounter(counters[1], 1000);
-                    entry.target.classList.add('animated');
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    
+                    // Trigger counter animation
+                    if (entry.target.classList.contains('counter') && !entry.target.classList.contains('animated')) {
+                        animateCounter(entry.target);
+                        entry.target.classList.add('animated');
+                    }
                 }
             });
-        }, { threshold: 0.5 });
+        }, observerOptions);
 
-        const statsSection = document.querySelector('#home .grid.grid-cols-3');
-        if (statsSection) {
-            statsObserver.observe(statsSection);
-        }
+        // Observe elements
+        document.querySelectorAll('.feature-card, section > div, .counter').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Terminal typing effect
+        const terminalLines = document.querySelectorAll('.terminal div');
+        terminalLines.forEach((line, index) => {
+            line.style.opacity = '0';
+            setTimeout(() => {
+                line.style.opacity = '1';
+                line.style.transition = 'opacity 0.3s ease';
+            }, index * 200);
+        });
 
         // Add hover effect to cards
         document.querySelectorAll('.feature-card').forEach(card => {
             card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-5px)';
+                this.style.transform = 'translateY(-5px) scale(1.02)';
             });
             
             card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0)';
+                this.style.transform = 'translateY(0) scale(1)';
             });
         });
 
-        // Loading animation for demo button
+        // Demo button handler
         document.querySelector('a[href="#demo"]')?.addEventListener('click', function(e) {
             e.preventDefault();
-            alert('Demo video coming soon! Contact us for a personalized walkthrough.');
+            alert('Demo video coming soon! Meanwhile, schedule a call for a personalized demonstration.');
+            window.location.href = '/contact.html';
         });
     </script>
+
+    <!-- Custom CSS for animations -->
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(30px, -30px) scale(1.1); }
+        }
+        
+        @keyframes float-delayed {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-30px, 30px) scale(1.1); }
+        }
+        
+        .animate-float {
+            animation: float 10s ease-in-out infinite;
+        }
+        
+        .animate-float-delayed {
+            animation: float-delayed 10s ease-in-out infinite;
+            animation-delay: 5s;
+        }
+    </style>
 </body>
 </html>
